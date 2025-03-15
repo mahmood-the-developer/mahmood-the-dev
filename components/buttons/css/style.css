@@ -1,0 +1,26 @@
+.button__secondary {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--color-primary);
+    background-color: white;
+    cursor: pointer;
+}
+
+.button__primary {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color-primary);
+    font-size: large;
+    cursor: pointer;
+}
+
+.button__freeze {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}

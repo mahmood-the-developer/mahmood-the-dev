@@ -1,0 +1,33 @@
+@import url("./components/header/css/style.css");
+@import url("./components/main-nav/css/style.css");
+@import url("./components/recent-product/css/style.css");
+@import url("./components/buttons/css/style.css");
+@import url("./components/footer/css/style.css");
+:root {
+    --color-primary: rgb(205, 39, 205);
+    --color-secondary: #A7ACED;
+    --background-color: rgb(183, 177, 177);
+}
+
+body,
+html {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
