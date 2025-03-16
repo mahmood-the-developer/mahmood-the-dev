@@ -11,7 +11,7 @@ export function initNavEvents()
             if(!history.state || history?.state?.page!="1")
             {
                 renderHome()
-                history.pushState({page:"1"},"home","/mahmood-the-dev")
+                history.pushState({page:"1"},"home","?=home")
 
             }
             
